@@ -12,7 +12,7 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.SwitchPreferenceCompat;
 
-import com.android.internal.derp.app.ParallelSpaceManager;
+import org.derpfest.app.ParallelSpaceManager;
 
 import java.util.List;
 

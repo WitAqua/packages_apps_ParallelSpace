@@ -4,7 +4,7 @@ import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.graphics.drawable.Drawable;
 
-import com.android.internal.derp.app.ParallelSpaceManager;
+import org.derpfest.app.ParallelSpaceManager;
 
 public class SpaceAppInfo {
 

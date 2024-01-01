@@ -19,7 +19,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import com.android.internal.derp.app.ParallelSpaceManager;
+import org.derpfest.app.ParallelSpaceManager;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 import com.google.android.material.materialswitch.MaterialSwitch;
 
