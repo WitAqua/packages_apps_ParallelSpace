@@ -1,10 +1,10 @@
-package org.derpfest.parallelspace;
+package tokyo.witaqua.parallelspace;
 
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.graphics.drawable.Drawable;
 
-import org.derpfest.app.ParallelSpaceManager;
+import tokyo.witaqua.app.ParallelSpaceManager;
 
 public class SpaceAppInfo {
 

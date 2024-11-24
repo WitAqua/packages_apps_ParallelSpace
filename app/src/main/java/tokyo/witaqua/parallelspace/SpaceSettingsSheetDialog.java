@@ -1,4 +1,4 @@
-package org.derpfest.parallelspace;
+package tokyo.witaqua.parallelspace;
 
 import android.app.Dialog;
 import android.content.Context;
@@ -19,7 +19,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import org.derpfest.app.ParallelSpaceManager;
+import tokyo.witaqua.app.ParallelSpaceManager;
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment;
 import com.google.android.material.materialswitch.MaterialSwitch;
 

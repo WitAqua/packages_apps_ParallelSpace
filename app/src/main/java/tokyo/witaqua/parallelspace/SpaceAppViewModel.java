@@ -1,4 +1,4 @@
-package org.derpfest.parallelspace;
+package tokyo.witaqua.parallelspace;
 
 import android.app.Application;
 import android.content.Context;
@@ -10,7 +10,7 @@ import android.content.pm.ResolveInfo;
 import androidx.lifecycle.AndroidViewModel;
 import androidx.lifecycle.LiveData;
 
-import org.derpfest.app.ParallelSpaceManager;
+import tokyo.witaqua.app.ParallelSpaceManager;
 
 import java.util.ArrayList;
 import java.util.List;

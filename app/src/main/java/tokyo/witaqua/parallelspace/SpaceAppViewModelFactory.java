@@ -1,4 +1,4 @@
-package org.derpfest.parallelspace;
+package tokyo.witaqua.parallelspace;
 
 import android.app.Application;
 

@@ -1,4 +1,4 @@
-package org.derpfest.parallelspace;
+package tokyo.witaqua.parallelspace;
 
 import android.os.Bundle;
 import android.text.InputType;
@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
 
-import org.derpfest.app.ParallelSpaceManager;
+import tokyo.witaqua.app.ParallelSpaceManager;
 
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
 

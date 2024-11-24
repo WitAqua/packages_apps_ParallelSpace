@@ -15,7 +15,7 @@
      limitations under the License.
 -->
 <permissions>
-    <privapp-permissions package="org.derpfest.parallelspace">
+    <privapp-permissions package="tokyo.witaqua.parallelspace">
         <permission name="android.permission.MANAGE_PARALLEL_SPACES"/>
         <permission name="android.permission.MANAGE_USERS"/>
     </privapp-permissions>

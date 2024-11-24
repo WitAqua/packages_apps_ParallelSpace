@@ -1,4 +1,4 @@
-package org.derpfest.parallelspace;
+package tokyo.witaqua.parallelspace;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -15,7 +15,7 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceFragmentCompat;
 
-import org.derpfest.app.ParallelSpaceManager;
+import tokyo.witaqua.app.ParallelSpaceManager;
 
 import java.util.List;
 import java.util.Objects;
@@ -32,7 +32,7 @@ public class SettingsFragment extends PreferenceFragmentCompat {
         @Override
         public void onReceive(Context context, Intent intent) {
             String action = intent.getAction();
-            if (Objects.equals(action, org.derpfest.content.Intent.ACTION_PARALLEL_SPACE_CHANGED)) {
+            if (Objects.equals(action, tokyo.witaqua.content.Intent.ACTION_PARALLEL_SPACE_CHANGED)) {
                 updateSpaceList();
             }
         }
@@ -56,7 +56,7 @@ public class SettingsFragment extends PreferenceFragmentCompat {
 
     private void registerUpdateReceiver() {
         IntentFilter filter = new IntentFilter();
-        filter.addAction(org.derpfest.content.Intent.ACTION_PARALLEL_SPACE_CHANGED);
+        filter.addAction(tokyo.witaqua.content.Intent.ACTION_PARALLEL_SPACE_CHANGED);
         receiver = new UpdateSpaceListReceiver();
         requireActivity().registerReceiver(receiver, filter, Context.RECEIVER_EXPORTED);
     }
